@@ -1,0 +1,55 @@
+div#careers-page {
+  background-color: var(--grey);
+}
+
+/* ----------------------------------- in the card ----------------------------------- */
+div.career-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  width: 200px;
+  /* min-height: 200px; */
+}
+
+div.career-content > h3 {
+  width: calc(100% - 24px);
+  padding: 12px 24px;
+  margin: 12px;
+  
+  text-align: center;
+  background-color: var(--paleBlue);
+}
+
+div.career-content > div,
+div.branches {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+div.branches {
+  justify-content: center;
+}
+
+div.career-content > div {
+  justify-content: space-between;
+}
+
+div.career-content > div > p {
+  margin: 12px;
+}
+
+div.branches > button  {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+div.branches > button.active{
+  background-color: var(--seaBlue);
+}
+
+
+
+
+

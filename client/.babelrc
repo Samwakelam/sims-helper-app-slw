@@ -1,0 +1,44 @@
+  
+{
+  "presets": [
+      [
+          "@babel/preset-env",
+          {
+              "useBuiltIns": "usage",
+              "corejs": 3,
+              "modules": false
+          }
+      ],
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+  ],
+  "plugins": [
+    //   "react-hot-loader/babel",
+      "@babel/plugin-transform-flow-strip-types",
+      "@babel/plugin-transform-modules-commonjs"
+  ],
+  "env": {
+      "test": {
+          "presets": [
+              [
+                  "@babel/preset-env",
+                  {
+                      "targets": {
+                          "node": "current"
+                      }
+                  }
+              ]
+          ],
+          "plugins": [
+              [
+                  "babel-plugin-styled-components",
+                  {
+                      "minify": false,
+                      "displayName": false,
+                      "ssr": false
+                  }
+              ]
+          ]
+      }
+  }
+}

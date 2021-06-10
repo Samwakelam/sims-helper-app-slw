@@ -1,0 +1,7 @@
+article.card-container {
+  display: flex;
+
+  padding: 12px;
+  margin: 24px;
+  width: max-content;
+}

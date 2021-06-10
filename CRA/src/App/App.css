@@ -1,0 +1,107 @@
+div#App {
+  min-height: 100vh;
+
+  position: relative;
+}
+
+main {
+  position: relative;
+  min-height: calc(100vh - 42px);
+}
+
+.center {
+  text-align: center;
+}
+
+.inset {
+  padding: 12px;
+  margin: 12px;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px var(--shadow) inset,
+  -6px -6px 10px var(--highlight) inset;
+}
+
+.raised {
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px var(--shadow),
+  -6px -6px 10px var(--highlight);
+}
+
+.pushed {
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px var(--shadow),
+  -6px -6px 10px var(--highlight),
+  4px 4px 8px var(--shadow) inset,
+  -4px -4px 8px  var(--highlight) inset;
+}
+
+button {
+  text-align: center;
+
+  padding: 6px 12px;
+  margin: 12px;
+  min-height: 40px;
+  
+  border: unset;
+  outline: unset;
+  background-color: unset;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px var(--shadow),
+  -6px -6px 10px var(--highlight);
+
+  cursor: pointer;
+}
+
+button:hover {
+  /* background: linear-gradient(var(--convex), var(--shadow), var(--highlight)); */
+  box-shadow: 4px 4px 8px var(--shadow),
+  -6px -6px 10px var(--highlight),
+  4px 4px 8px var(--shadow) inset,
+  -4px -4px 8px  var(--highlight) inset;
+}
+
+button:focus {
+  outline: unset;
+}
+
+button.active {
+  box-shadow: 4px 4px 8px var(--shadow) inset,
+  -4px -4px 8px  var(--highlight) inset;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 0.9em 0;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin: 0.8em 0;
+}
+
+h4 {
+  font-size: 1.4em;
+  margin: 0.7em 0;
+}
+
+h5 {
+  font-size: 1.2em;
+  margin: 0.6em 0;
+}
+
+h6 {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em 0;
+  line-height: 18px;
+}

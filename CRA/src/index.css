@@ -1,0 +1,63 @@
+:root {
+  --white: #fdfffc;
+  --grey: #e0e0e0;
+  --highlight: rgba(252, 255, 250, 0.35);
+  --shadow: rgba(0, 0, 0, 0.25);
+
+  --paleBlue: #a0edff;
+  --seaBlue: #11ffff;
+  --blue: #38d8fc;
+  --powderBlue: #0098ec;
+  --darkBlue: #2c17e2;
+  --darkestBlue: #0f0db0;
+
+  --teal: #06a8b5;
+  --darkTeal: #027178;
+  --darkestTeal: #0b3939;
+
+  --pink: #e765ad;
+  --hotPink: #be3680;
+  --darkPink: #7c2053;
+
+  --paleGreen: #cce4b4;
+  --lightGreen: #79c143;
+  --green: #00ca07;
+  --darkGreen: #00a000;
+  --darkestGreen: #23441e;
+  
+  --convex: 135deg;
+  --concave: -45deg;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  border: 5px solid black;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size: 5em;
+  color: var(--grey);
+
+  text-shadow: 4px 4px 8px var(--shadow),
+  -4px -4px 8px  var(--highlight);
+}
+
+h2, h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+button {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}

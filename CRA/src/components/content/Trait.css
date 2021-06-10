@@ -1,0 +1,36 @@
+div.trait-container {
+  display: flex;
+  flex-flow: column;
+
+  padding: 12px;
+  margin: 24px 0;
+
+  color: var(--grey);
+
+  border-radius: 10px;
+  border: 2px solid var(--teal);
+  background: linear-gradient( 135deg, var(--darkTeal) 40%, var(--darkestTeal));
+}
+
+div.trait-container p {
+  margin: 12px;
+  padding: 12px;
+}
+
+div.trait-container > div {
+  display: flex;
+  flex-flow: column;
+}
+
+div.trait-container > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 65px;
+  margin: 12px 0;
+}
+
+div.trait-container > div > div > h6 {
+  padding: 12px;
+  width: 45%;
+}

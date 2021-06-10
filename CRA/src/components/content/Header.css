@@ -1,0 +1,9 @@
+header {
+  width: 100%;
+
+  background-color: var(--paleBlue);
+}
+
+header img {
+  width: 100%;
+}

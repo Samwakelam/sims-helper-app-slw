@@ -1,0 +1,105 @@
+div.page {
+  display: flex;
+  width: 100%;
+}
+
+section { 
+  padding: 12px 24px;
+  min-height: calc(100vh - 52.4px);
+  background-image: linear-gradient(var(--paleBlue) 1px, var(--grey) 50px);
+}
+
+div.page > section.grow > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+div.page h1 {
+  margin: 24px;
+  text-align: center;
+}
+
+
+.full {
+  min-width: 100%;
+}
+
+.half {
+  min-width: 50%;
+}
+
+.quarter {
+  min-width: 30%;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.sml-text {
+  font-size: 75%;
+  margin: 0.4em;
+}
+
+img.symbol {
+  height: 75px;
+  width: 75px;
+  margin: 12px;
+}
+
+.small{
+  transform: scale(0.5);
+}
+
+
+
+/* ----------------------------------- aside ----------------------------------- */
+section.quarter {
+  display: flex;
+  flex-flow: column;
+  max-width: 25%;
+
+  background-color: var(--paleGreen);
+}
+
+section.quarter > article {
+  /* position: sticky; */
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: var(--paleGreen);
+}
+
+section.quarter > article > h2 {
+  margin: 20px 0;
+  padding: 12px 24px;
+}
+
+section.quarter > article > div {
+  margin: 24px 0;
+  padding: 12px;
+}
+
+section.quarter > article > div > h5 {
+  margin: 12px;
+}
+
+section.quarter > article > div > div {
+  display: flex;
+}
+
+section.quarter img {
+  border-radius: 10px;
+}
+
+span {
+  margin: 0 5px;
+}
